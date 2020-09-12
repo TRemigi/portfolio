@@ -9,7 +9,7 @@ function Contact () {
                 Contact Me
             </h2>
             {contacts.map((item) => (
-                <article>
+                <article key={item.name}>
                     <a href={item.link} rel="noopener noreferrer" target="_blank">
                     <img src={require(`../../assets/images/icons/${item.icon}`)} />
                     </a>

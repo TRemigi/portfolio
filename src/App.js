@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Nav from './components/Nav';
+import NavComponent from './components/Nav';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
@@ -27,7 +27,7 @@ const renderPage = () => {
 
   return (
     <div className="back-dark">
-      <Nav 
+      <NavComponent 
       navSelected={navSelected}
       setNavSelected={setNavSelected}
       />

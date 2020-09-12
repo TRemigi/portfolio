@@ -45,6 +45,32 @@ code {
     border-bottom: solid 3px var(--crimson);
 }
 
+.nav-link {
+  margin: 0 3px 0 3px;
+}
+
+.bigger-bar {
+  min-height: 10vh;
+  border-bottom: solid var(--crimson);
+}
+
+.big-neon {
+        font-family:"Neon W05 Display";
+        font-weight: normal;
+        font-size: 4vh;
+        border: solid 3px;
+        border-radius: 15px;
+        padding: 5px 20px 5px 20px;
+        color: #9A9DA0;
+}
+
+.big-neon:hover {
+  color: #fff4e6;
+  text-shadow: 4px 4px 35px var(--crimson), -4px -4px 35px var(--crimson);
+  box-shadow: 4px 4px 100px var(--crimson), -4px -4px 100px var(--crimson);
+  text-decoration: none;
+}
+
 .neon {
     font-family:"Neon W05 Display";
     font-weight: normal;
@@ -89,11 +115,6 @@ header {
     background-color: var(--black);
     color: var(--crimson);
     height: 10vh;
-}
-
-.nav {
-    /* height: 10vh; */
-    font-size: 4vh;
 }
 
 .jumbo {
