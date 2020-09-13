@@ -8,7 +8,7 @@ function NavComponent (props) {
     return (
         <header>
             <Navbar className="bigger-bar fixed-top" bg="dark" variant="dark" expand="lg">
-            <Navbar.Brand href="#home"><span className="big-neon">Taylor Remigi</span></Navbar.Brand>
+            <Navbar.Brand href="#home"><span className="big-neon glowing">Taylor Remigi</span></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="container-fluid justify-content-end">

@@ -38,9 +38,33 @@ code {
 
 /* utilities */
 
+.footer {
+    text-align: center;
+    color: var(--light);
+    height: 13vh;
+}
+
+.contact-card {
+    height: 40vh;
+    margin: 10px 0 10px 0;
+}
+
+.contact-card img {
+    height: 30vh;
+}
+
+.fill-screen {
+    min-height: 91vh;
+}
+
+.btn-darker {
+    background-color: #000000;
+}
+
 .back-dark {
     background-color: var(--black);
 }
+
 .bottom-border {
     border-bottom: solid 3px var(--crimson);
 }
@@ -72,6 +96,29 @@ code {
 }
 
 .neon {
+    font-family:"Neon W05 Display";
+    font-weight: normal;
+    border: solid 3px;
+    border-radius: 15px;
+    padding: 5px;
+    color: #AE9F98;
+}
+
+.project-card {
+    font-weight: normal;
+    border: solid 3px;
+    height: 70vh;
+    width: 60vh;
+    border-radius: 15px;
+    padding: 5px;
+    color: #AE9F98;
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 -400px;
+    background-image: "";
+}
+
+.no-glow-neon {
     font-family:"Neon W05 Display";
     font-weight: normal;
     border: solid 3px;
