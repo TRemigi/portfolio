@@ -1,15 +1,16 @@
 import React from 'react';
 import contacts from '../../assets/js/contact';
+import addTitle from '../../assets/js/sectionTitleHandler';
 
-function Contact () {
+function Contact (props) {
+
+    const { navSelected } = props;
 
     return(
-        <div className="container fill-screen bottom-border">
+        <section className="container-fluid fill-screen bottom-border">
             <div className="row justify-content-center">
                 <div className="col-6 pt-2 text-center">
-                    <h2 id="contact" className="p-5 mt-4 mb-6 neon glowing">
-                        Contact Me
-                    </h2>
+                    {addTitle(navSelected)}
                 </div>
             </div>
             <div className="row justify-content-center pt-5">
@@ -24,7 +25,7 @@ function Contact () {
                     </div>
                 ))}
             </div>
-            </div>
+            </section>
     )
 }
 

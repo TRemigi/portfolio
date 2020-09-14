@@ -16,11 +16,14 @@ const renderPage = () => {
     case 'home':
       return <Home />;
     case 'about':
-      return <About />;
+      return <About
+      navSelected={navSelected} />;
     case 'projects':
-      return <Projects />;
+      return <Projects
+      navSelected={navSelected} />;
       case 'contact':
-      return <Contact />;
+      return <Contact
+      navSelected={navSelected} />;
     default:
       return <Home />;
   }
