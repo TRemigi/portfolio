@@ -4,7 +4,7 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import CardColumns from 'react-bootstrap/CardGroup';
-import SectionTitle from '../SectionTitle/SectionTitle';
+import SectionTitle from '../SectionTitle';
     
 function Projects (props) {
 

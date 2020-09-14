@@ -57,6 +57,20 @@ code {
     height: 13vh;
 }
 
+.sign {
+    height: 30px;
+    padding: 0px;
+    margin: 0px;
+    border-left: solid 12px white;
+    border-right: solid 12px white;
+    border-image: 
+    linear-gradient(
+      to right, 
+      #383737, 
+      #a3a2a2
+    ) 1 100%;
+}
+
 .contact-card {
     height: 40vh;
     margin: 10px 0 10px 0;
@@ -64,6 +78,11 @@ code {
 
 .contact-card img {
     height: 30vh;
+}
+
+.contact-link {
+    height: 100%;
+    width: 100%;
 }
 
 .about-card {
@@ -145,14 +164,14 @@ code {
 
 .neon:hover {
     color: #fff4e6;
-    text-shadow: 4px 4px 35px var(--crimson), -4px -4px 35px var(--crimson);
+    text-shadow: 4px 4px 50px var(--crimson), -4px -4px 50px var(--crimson);
     box-shadow: 4px 4px 50px var(--crimson), -4px -4px 50px var(--crimson);
     text-decoration: none;
 }
 
 .glowing {
-    color: #fff4e6;
-    text-shadow: 4px 4px 35px var(--crimson), -4px -4px 35px var(--crimson);
+    color:#ffe8c6;
+    text-shadow: 4px 4px 50px var(--crimson), -4px -4px 50px var(--crimson);
     box-shadow: 4px 4px 50px var(--crimson), -4px -4px 50px var(--crimson);
 
 }
@@ -203,7 +222,7 @@ header {
 .section-title {
     font-family:"Neon W05 Display";
     text-align: center;
-    border: solid 3px;
+    border: solid 4px;
     border-radius: 15px;
     font-size: 2em;
 }
@@ -217,21 +236,21 @@ header {
 
 .flicker-2 {
     animation-name: flicker-2;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-iteration-count: 1;
-    animation-delay: 1s;
+    animation-delay: 0s;
 }
 
 .flicker-3 {
     animation-name: flicker-3;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-iteration-count: 2;
-    animation-delay: 1s;
+    animation-delay: 0s;
 }
 
 .flicker-4 {
     animation-name: flicker-4;
-    animation-duration: 2s;
+    animation-duration: 4s;
     animation-iteration-count: 1;
     animation-delay: 3s;
 }

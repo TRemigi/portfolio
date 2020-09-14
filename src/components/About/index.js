@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import SectionTitle from '../SectionTitle/SectionTitle';
+import SectionTitle from '../SectionTitle';
 
 function About (props) {
 
@@ -13,7 +13,7 @@ function About (props) {
             <SectionTitle
             navSelected={navSelected} />
             <div className="row justify-content-center pt-5">
-                <div className="col-4">
+                <div className="col-12">
                     <Card className="p-2 mb-3" bg="secondary" text="light">
                         <Card.Img  src={require('../../assets/images/tay.jpg')} alt="Taylor's portrait" />
                         <Card.Body>

@@ -1,6 +1,6 @@
 import React from 'react';
 import contacts from '../../assets/js/contact';
-import SectionTitle from '../SectionTitle/SectionTitle';
+import SectionTitle from '../SectionTitle';
 
 function Contact (props) {
 
