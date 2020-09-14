@@ -2,7 +2,7 @@ import React from 'react';
 import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
-import addTitle from '../../assets/js/sectionTitleHandler';
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 function About (props) {
 
@@ -10,11 +10,8 @@ function About (props) {
 
     return(
         <section className="container-fluid fill-screen bottom-border">
-            <div className="row justify-content-center">
-                <div className="col-6 pt-2 text-center align-items-center">
-                    {addTitle(navSelected)}
-                </div>
-            </div>
+            <SectionTitle
+            navSelected={navSelected} />
             <div className="row justify-content-center pt-5">
                 <div className="col-4">
                     <Card className="p-2 mb-3" bg="secondary" text="light">

@@ -4,19 +4,16 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import CardColumns from 'react-bootstrap/CardGroup';
-import addTitle from '../../assets/js/sectionTitleHandler';
+import SectionTitle from '../SectionTitle/SectionTitle';
     
 function Projects (props) {
 
 const { navSelected } = props;
 
     return(
-        <div className="container fill-screen bottom-border">
-            <div className="row justify-content-center">
-                <div className="col-6 pt-2 text-center">
-                    {addTitle(navSelected)}
-                </div>
-            </div>
+        <section className="container fill-screen bottom-border">
+            <SectionTitle
+            navSelected={navSelected} />
             <div className="row justify-content-center pt-5 pb-5">
                 <CardColumns>
                     {projects.map((item) => (
@@ -38,7 +35,7 @@ const { navSelected } = props;
                     ))}
                 </CardColumns>
             </div>
-        </div>
+        </section>
     )
 }
 

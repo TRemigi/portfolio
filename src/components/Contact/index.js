@@ -1,6 +1,6 @@
 import React from 'react';
 import contacts from '../../assets/js/contact';
-import addTitle from '../../assets/js/sectionTitleHandler';
+import SectionTitle from '../SectionTitle/SectionTitle';
 
 function Contact (props) {
 
@@ -8,11 +8,8 @@ function Contact (props) {
 
     return(
         <section className="container-fluid fill-screen bottom-border">
-            <div className="row justify-content-center">
-                <div className="col-6 pt-2 text-center">
-                    {addTitle(navSelected)}
-                </div>
-            </div>
+            <SectionTitle
+            navSelected={navSelected} /> 
             <div className="row justify-content-center pt-5">
                 {contacts.map((item) => (
                     <div className="col-12 col-md-3 m-2 no-glow-neon job-card" key={item.name}>
