@@ -54,7 +54,7 @@ code {
 .footer {
     text-align: center;
     color: var(--light);
-    height: 13vh;
+    min-height: 20vh;
 }
 
 .sign {
@@ -71,17 +71,8 @@ code {
     ) 1 100%;
 }
 
-.contact-card {
-    height: 40vh;
-    margin: 10px 0 10px 0;
-}
-
 .contact-card img {
     height: 30vh;
-}
-
-.about-card {
-    height: 70vh;
 }
 
 .fill-screen {
@@ -107,6 +98,17 @@ code {
 .bigger-bar {
   min-height: 10vh;
   border-bottom: solid var(--crimson);
+}
+
+.contact-section {
+    color: white;
+}
+
+.about {
+    background-image: url('../src/assets/images/street.jpg');
+    background-size: cover;
+    background-attachment: scroll;
+    background-position: 0 -400px;
 }
 
 .big-neon {

@@ -9,11 +9,11 @@ function About (props) {
     const { navSelected } = props;
 
     return(
-        <section className="container-fluid fill-screen bottom-border">
+        <section className="container-fluid fill-screen bottom-border about">
             <SectionTitle
             navSelected={navSelected} />
             <div className="row justify-content-center pt-5">
-                <div className="col-12">
+                <div className="col-12 col-sm-7 col-lg-6">
                     <Card className="p-2 mb-3" bg="secondary" text="light">
                         <Card.Img  src={require('../../assets/images/tay.jpg')} alt="Taylor's portrait" />
                         <Card.Body>
@@ -21,10 +21,7 @@ function About (props) {
                                 <Card.Text>
                                     is a full-stack web developer adept at learning new skills with a focus on creating beautiful and human friendly experiences. 
                                 </Card.Text>
-                        </Card.Body>                            <ButtonGroup aria-label="Basic example">
-                            <Button href="https://github.com/TRemigi" target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../assets/images/icons/github.svg')}></img></span></Button>
-                            <Button href="https://www.linkedin.com/in/taylor-remigi-7178281a5/" target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../assets/images/icons/linkedin.svg')}></img></span></Button>
-                        </ButtonGroup>
+                        </Card.Body>
                     </Card>
                 </div>
             </div>

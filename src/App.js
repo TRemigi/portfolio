@@ -8,7 +8,7 @@ import Contact from './components/Contact';
 import Footer from './components/Footer';
 
 function App() {
-const [navSelected, setNavSelected] = useState("home");
+const [navSelected, setNavSelected] = useState("about");
 
 const renderPage = () => {
     
@@ -25,17 +25,7 @@ const renderPage = () => {
       return <Contact
       navSelected={navSelected} />;
     default:
-      return <Home />;
-  }
-}
-
-const checkFooter = () => {
-   
-  switch(navSelected) {
-    case 'home':
-      return;
-    default:
-      return <Footer />;
+      return <About />;
   }
 }
 
@@ -48,7 +38,7 @@ const checkFooter = () => {
       <main>
         {renderPage()}
       </main>
-      {checkFooter()}
+      <Footer />
     </div>
   );
 }
