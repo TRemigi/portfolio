@@ -1,5 +1,4 @@
 import React from 'react';
-import contacts from '../../assets/js/contact';
 import SectionTitle from '../SectionTitle';
 import ContactForm from './ContactForm';
 

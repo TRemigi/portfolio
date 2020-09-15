@@ -13,7 +13,7 @@ function About (props) {
             <SectionTitle
             navSelected={navSelected} />
             <div className="row justify-content-center pt-5">
-                <div className="col-12 col-sm-7 col-lg-6">
+                <div className="col-12 col-sm-7 col-lg-4">
                     <Card className="p-2 mb-3" bg="secondary" text="light">
                         <Card.Img  src={require('../../assets/images/tay.jpg')} alt="Taylor's portrait" />
                         <Card.Body>

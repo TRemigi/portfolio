@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import NavComponent from './components/Nav';
 import Home from './components/Home';
@@ -9,6 +9,11 @@ import Footer from './components/Footer';
 
 function App() {
 const [navSelected, setNavSelected] = useState("about");
+
+useEffect(() => {
+  const newTitle = navSelected.charAt(0).toUpperCase() + navSelected.slice(1)
+  document.title = newTitle;
+}, [navSelected]);
 
 const renderPage = () => {
     
