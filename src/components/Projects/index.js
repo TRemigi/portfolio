@@ -11,7 +11,7 @@ function Projects (props) {
 const { navSelected } = props;
 
     return(
-        <section className="container fill-screen bottom-border">
+        <section className="container-fluid fill-screen bottom-border">
             <SectionTitle
             navSelected={navSelected} />
             <div className="row justify-content-center pt-5 pb-5">

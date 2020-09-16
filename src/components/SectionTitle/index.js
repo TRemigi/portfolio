@@ -9,11 +9,11 @@ const SectionTitle = (props) => {
     const elements = [
         <div className="container-fluid">
             <div className="row justify-content-center">
-                <div className="col-6 sign">
+                <div className="col-6 col-sm-4 col-md-3 sign">
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 text-center">
+                <div className="col-12 col-sm-8 col-md-6 text-center">
                     <h2 id={title} className="p-5 mb-6 section-title glowing flicker-1">                
                     {title}
                     </h2>
@@ -22,11 +22,11 @@ const SectionTitle = (props) => {
         </div>,
         <div className="container-fluid">
         <div className="row justify-content-center">
-            <div className="col-6 sign">
+            <div className="col-6 col-sm-4 col-md-3 sign">
             </div>
         </div>
         <div className="row justify-content-center">
-            <div className="col-12 text-center">
+            <div className="col-12 col-sm-8 col-md-6 text-center">
                 <h2 id={title} className="p-5 mb-6 section-title glowing flicker-2">                
                 {title}
                 </h2>
@@ -35,11 +35,11 @@ const SectionTitle = (props) => {
     </div>,
     <div className="container-fluid">
     <div className="row justify-content-center">
-        <div className="col-6 sign">
+        <div className="col-6 col-sm-4 col-md-3 sign">
         </div>
     </div>
     <div className="row justify-content-center">
-        <div className="col-12 text-center">
+        <div className="col-12 col-sm-8 col-md-6 text-center">
             <h2 id={title} className="p-5 mb-6 section-title glowing flicker-3">                
             {title}
             </h2>
@@ -48,11 +48,11 @@ const SectionTitle = (props) => {
 </div>,
 <div className="container-fluid">
             <div className="row justify-content-center">
-                <div className="col-6 sign">
+                <div className="col-6 col-sm-4 col-md-3 sign">
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 text-center">
+                <div className="col-12 col-sm-8 col-md-6 text-center">
                     <h2 id={title} className="p-5 mb-6 section-title glowing flicker-4">                
                     {title}
                     </h2>
@@ -61,11 +61,11 @@ const SectionTitle = (props) => {
         </div>,
         <div className="container-fluid">
         <div className="row justify-content-center">
-            <div className="col-6 sign">
+            <div className="col-6 col-sm-4 col-md-3 sign">
             </div>
         </div>
         <div className="row justify-content-center">
-            <div className="col-12 text-center">
+            <div className="col-12 col-sm-8 col-md-6 text-center">
                 <h2 id={title} className="p-5 mb-6 section-title glowing">                
                 {title}
                 </h2>
@@ -74,11 +74,11 @@ const SectionTitle = (props) => {
     </div>,
     <div className="container-fluid">
     <div className="row justify-content-center">
-        <div className="col-6 sign">
+        <div className="col-6 col-sm-4 col-md-3 sign">
         </div>
     </div>
     <div className="row justify-content-center">
-        <div className="col-12 text-center">
+        <div className="col-12 col-sm-8 col-md-6 text-center">
             <h2 id={title} className="p-5 mb-6 section-title glowing">                
             {title}
             </h2>
@@ -87,11 +87,11 @@ const SectionTitle = (props) => {
 </div>,
 <div className="container-fluid">
             <div className="row justify-content-center">
-                <div className="col-6 sign">
+                <div className="col-6 col-sm-4 col-md-3 sign">
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 text-center">
+                <div className="col-12 col-sm-8 col-md-6 text-center">
                     <h2 id={title} className="p-5 mb-6 section-title glowing">                
                     {title}
                     </h2>
