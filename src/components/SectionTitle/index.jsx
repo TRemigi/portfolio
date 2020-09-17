@@ -103,7 +103,7 @@ const SectionTitle = (props) => {
     ];
     // get random index from array (each has different flicker animation)
     const randomStyledTitle = elements[Math.floor(Math.random() * 7)];
-    console.log(`element: ${randomStyledTitle}`);
+    
     // return a section title element with a random flicker animation
     return (
         randomStyledTitle
