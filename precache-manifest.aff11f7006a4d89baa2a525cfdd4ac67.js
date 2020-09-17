@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2117ebfe122427f190b574bb1d436905",
+    "revision": "a0cb9092c985a4a5859b6cb868c08043",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "32b018a978c6097c9f38",
+    "revision": "01ca2717979308733e36",
     "url": "/portfolio/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "46df510036bd0b1da9d7",
+    "revision": "ad386a029aeef15cf217",
     "url": "/portfolio/static/css/main.ad644554.chunk.css"
   },
   {
-    "revision": "32b018a978c6097c9f38",
-    "url": "/portfolio/static/js/2.0d87c2ed.chunk.js"
+    "revision": "01ca2717979308733e36",
+    "url": "/portfolio/static/js/2.bbb55b4a.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/portfolio/static/js/2.0d87c2ed.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.bbb55b4a.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "46df510036bd0b1da9d7",
-    "url": "/portfolio/static/js/main.ddecd2dc.chunk.js"
+    "revision": "ad386a029aeef15cf217",
+    "url": "/portfolio/static/js/main.20966c08.chunk.js"
   },
   {
     "revision": "309a9e55c61ba5bff665",
@@ -42,6 +42,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "360ef5d3c51a7a70230542750103cd62",
     "url": "/portfolio/static/media/city-water.360ef5d3.jpg"
+  },
+  {
+    "revision": "7f20126acac9321a468b59c64c8a80e6",
+    "url": "/portfolio/static/media/employee-tracker.7f20126a.png"
   },
   {
     "revision": "728a078159dea7f2c15c20a5faa73891",
@@ -66,6 +70,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "c55cf3f9dac522cea5ff1374f136cbea",
     "url": "/portfolio/static/media/media4u-index.c55cf3f9.png"
+  },
+  {
+    "revision": "455eaa95222aff1cfcf00cf427de6bc3",
+    "url": "/portfolio/static/media/note-taker.455eaa95.png"
   },
   {
     "revision": "fd3f02c589193ade60dd675e56655289",
@@ -102,5 +110,9 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "85815985339979a434d56960b2925fe2",
     "url": "/portfolio/static/media/vertical-neon.85815985.jpg"
+  },
+  {
+    "revision": "ab349900070b2c763c1e6d4a5a8c718c",
+    "url": "/portfolio/static/media/weather-dashboard.ab349900.png"
   }
 ]);
