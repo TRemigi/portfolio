@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "a0cb9092c985a4a5859b6cb868c08043",
+    "revision": "b091f5f46891d69421687086ef501ee7",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "01ca2717979308733e36",
+    "revision": "d5b930f2ff2a310b2328",
     "url": "/portfolio/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "ad386a029aeef15cf217",
+    "revision": "72adffe01dc080fefdef",
     "url": "/portfolio/static/css/main.ad644554.chunk.css"
   },
   {
-    "revision": "01ca2717979308733e36",
-    "url": "/portfolio/static/js/2.bbb55b4a.chunk.js"
+    "revision": "d5b930f2ff2a310b2328",
+    "url": "/portfolio/static/js/2.aceb2c8d.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/portfolio/static/js/2.bbb55b4a.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.aceb2c8d.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "ad386a029aeef15cf217",
-    "url": "/portfolio/static/js/main.20966c08.chunk.js"
+    "revision": "72adffe01dc080fefdef",
+    "url": "/portfolio/static/js/main.09d20024.chunk.js"
   },
   {
     "revision": "309a9e55c61ba5bff665",
@@ -38,10 +38,6 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "e14e15b34cff51f9ab0334de13ee10a1",
     "url": "/portfolio/static/media/chrome.e14e15b3.svg"
-  },
-  {
-    "revision": "360ef5d3c51a7a70230542750103cd62",
-    "url": "/portfolio/static/media/city-water.360ef5d3.jpg"
   },
   {
     "revision": "7f20126acac9321a468b59c64c8a80e6",
@@ -80,6 +76,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/portfolio-page.fd3f02c5.png"
   },
   {
+    "revision": "181491c581ca33ad698a03eb618a180e",
+    "url": "/portfolio/static/media/react-portfolio.181491c5.png"
+  },
+  {
     "revision": "66dbf5a93c7c2d7752bbac54963f426c",
     "url": "/portfolio/static/media/retro-japan.66dbf5a9.jpg"
   },
@@ -92,16 +92,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/spotify.1fc2f778.svg"
   },
   {
-    "revision": "61463fa27acacf504472866e9e3236c6",
-    "url": "/portfolio/static/media/street-lamp.61463fa2.jpg"
-  },
-  {
     "revision": "345f69e8c1868caf332eed8c2f9e608f",
     "url": "/portfolio/static/media/street.345f69e8.jpg"
-  },
-  {
-    "revision": "53c67ebdd7aa6c6513d6d1c7fa7c1913",
-    "url": "/portfolio/static/media/string-lights.53c67ebd.jpg"
   },
   {
     "revision": "3634871266ed192c80ca557de481d70f",
