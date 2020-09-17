@@ -1,3 +1,4 @@
+// array of contact objects for use on contact page
 const contacts = [
     {
         name: "GitHub",

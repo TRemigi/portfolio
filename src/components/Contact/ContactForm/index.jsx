@@ -2,10 +2,12 @@ import React, { useState } from 'react';
 import { validateEmail } from '../../../assets/js/verifyEmail';
 
 function ContactForm() {
+    // set up state
     const [formState, setFormState] = useState({ name: '', email: '', message: '' });
     const { name, email, message } = formState;
     const [errorMessage, setErrorMessage] = useState('');
 
+    // respond to state changes with error messages
     function handleChange(e) {
         if (e.target.name === 'email') {
             const isValid = validateEmail(e.target.value);
@@ -28,9 +30,9 @@ function ContactForm() {
         }
     }
 
+    // logic to submit for (will be used later)
     function handleSubmit(e) {
         e.preventDefault();
-        console.log(formState);
     }
 
     return(

@@ -1,7 +1,5 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import Button from 'react-bootstrap/Button';
-import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import SectionTitle from '../SectionTitle';
 
 function About (props) {
@@ -19,7 +17,7 @@ function About (props) {
                         <Card.Body>
                             <Card.Title>Taylor Remigi</Card.Title>
                                 <Card.Text>
-                                    is a full-stack web developer adept at learning new skills with a focus on creating beautiful and human friendly experiences. 
+                                    is a full-stack web developer with a dedication to learning new skills and a strong focus on creating beautiful and human friendly experiences. 
                                 </Card.Text>
                         </Card.Body>
                     </Card>

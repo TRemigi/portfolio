@@ -5,7 +5,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare, faLinkedin, faSpotify } from '@fortawesome/free-brands-svg-icons';
 
 function Footer () {
-
+    // find correct icon
     const iconChecker = (item) => {
         let icon = "";
 
