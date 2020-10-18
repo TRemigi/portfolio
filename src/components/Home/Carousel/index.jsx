@@ -1,24 +1,32 @@
 import React from 'react';
 import Carousel from 'react-bootstrap/Carousel';
-import projects from '../../../assets/js/projects';
+import Card from 'react-bootstrap/Card';
+import ButtonGroup from 'react-bootstrap/ButtonGroup';
+import Button from 'react-bootstrap/Button';
+import Project from '../../Project';
 
 
-function CarouselComponent () {
+function CarouselComponent ({projects}) {
 
     return (
         <Carousel>
-            {projects.map((item) => (
-                <Carousel.Item key={item.name}>
-                    <img
-                    className="d-block w-100"
-                    src={require(`../../../assets/images/${item.image}`)}
-                    alt={item.name}
-                />
-                    <Carousel.Caption>
-                        <h3>{item.name}</h3>
-                        <p>{item.tools}</p>
-                    </Carousel.Caption>
-                </Carousel.Item>
+            {projects.map((project) => (
+                <Carousel.Item key={project.name}>
+                <Card className="p-2 mb-3" bg="secondary" text="light">
+                <Card.Img src={require(`../../../assets/images/${project.image}`)} alt={project.name} />
+                <Card.Body>
+                    <Card.Title>{project.name}</Card.Title>
+                    <Card.Text className="m-2">
+                        {project.tools}
+                    </Card.Text>
+                </Card.Body>
+                <ButtonGroup aria-label="Basic example">
+                    <Button href={project.githubLink} target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../../assets/images/icons/github.svg')}></img></span></Button>
+                    <Button href={project.deployLink} target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../../assets/images/icons/chrome.svg')}></img></span></Button>
+                </ButtonGroup>
+            </Card>
+            
+            </Carousel.Item>
             ))}
         </Carousel>
     )

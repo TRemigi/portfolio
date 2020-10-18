@@ -14,7 +14,7 @@ function Project(props) {
                 <Card.Img src={require(`../../assets/images/${project.image}`)} alt={project.name} />
                 <Card.Body>
                     <Card.Title>{project.name}</Card.Title>
-                    <Card.Text>
+                    <Card.Text className="m-2">
                         {project.tools}
                     </Card.Text>
                 </Card.Body>

@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   // set up navigation state
-const [navSelected, setNavSelected] = useState("about");
+const [navSelected, setNavSelected] = useState("home");
 
 // set document title to selected navigation
 useEffect(() => {
@@ -37,7 +37,7 @@ const renderPage = () => {
         return <Resume
         navSelected={navSelected} />;
     default:
-      return <About
+      return <Home
       navSelected={navSelected} />;
   }
 }
