@@ -3,7 +3,6 @@ import Carousel from 'react-bootstrap/Carousel';
 import Card from 'react-bootstrap/Card';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 import Button from 'react-bootstrap/Button';
-import Project from '../../Project';
 
 
 function CarouselComponent ({projects}) {
@@ -21,8 +20,8 @@ function CarouselComponent ({projects}) {
                     </Card.Text>
                 </Card.Body>
                 <ButtonGroup aria-label="Basic example">
-                    <Button href={project.githubLink} target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../../assets/images/icons/github.svg')}></img></span></Button>
-                    <Button href={project.deployLink} target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../../assets/images/icons/chrome.svg')}></img></span></Button>
+                    <Button href={project.githubLink} target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../../assets/images/icons/github.svg')} alt="github logo"></img></span></Button>
+                    <Button href={project.deployLink} target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../../assets/images/icons/chrome.svg')} alt="google chrome logo"></img></span></Button>
                 </ButtonGroup>
             </Card>
             

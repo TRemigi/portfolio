@@ -14,8 +14,10 @@ function ProjectsPage ({navSelected}) {
         <section className="container-fluid fill-screen bottom-border">
             <SectionTitle
             navSelected={navSelected} />
-            <Button variant="dark" className="ml-5 mt-5" onClick={()=> {setViewToggle(!viewToggle)}} >Toggle View</Button>
             <div className="row justify-content-center pt-5 pb-5">
+                <div className={`${!viewToggle && "col-sm-8 col-lg-6"} col-12 ml-3 mt-5 mb-2"`}>
+                    <Button variant="dark" onClick={()=> {setViewToggle(!viewToggle)}} >Toggle View</Button>
+                </div>
                 {viewToggle ? (
                     <CardColumns>
                     {projects.map((project) => (

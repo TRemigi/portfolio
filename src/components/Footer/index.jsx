@@ -1,6 +1,5 @@
 import React from 'react';
 import contacts from '../../assets/js/contact';
-import ReactDOM from 'react-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithubSquare, faLinkedin, faSpotify } from '@fortawesome/free-brands-svg-icons';
 
