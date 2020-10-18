@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "b091f5f46891d69421687086ef501ee7",
+    "revision": "d87f8d67898154870f96158a8d641d7f",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "d5b930f2ff2a310b2328",
+    "revision": "9b21ab0c384eeccc3630",
     "url": "/portfolio/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "72adffe01dc080fefdef",
-    "url": "/portfolio/static/css/main.ad644554.chunk.css"
+    "revision": "4f2b582c03a6858037c2",
+    "url": "/portfolio/static/css/main.da6ae993.chunk.css"
   },
   {
-    "revision": "d5b930f2ff2a310b2328",
-    "url": "/portfolio/static/js/2.aceb2c8d.chunk.js"
+    "revision": "9b21ab0c384eeccc3630",
+    "url": "/portfolio/static/js/2.fcbb0253.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/portfolio/static/js/2.aceb2c8d.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.fcbb0253.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "72adffe01dc080fefdef",
-    "url": "/portfolio/static/js/main.09d20024.chunk.js"
+    "revision": "4f2b582c03a6858037c2",
+    "url": "/portfolio/static/js/main.9e49e1ff.chunk.js"
   },
   {
     "revision": "309a9e55c61ba5bff665",
@@ -32,6 +32,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/9e8a5c7b-b389-4f4d-a58c-55160fbd0878.4f8261a1.woff2"
   },
   {
+    "revision": "91eb60c9ae4d73f36e47c3a3e92e7be4",
+    "url": "/portfolio/static/media/RoloDeck.91eb60c9.png"
+  },
+  {
     "revision": "f621946285f3f5f1f80b6309cfac3831",
     "url": "/portfolio/static/media/budget-tracker-screenshot.f6219462.png"
   },
@@ -40,8 +44,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/chrome.e14e15b3.svg"
   },
   {
-    "revision": "7f20126acac9321a468b59c64c8a80e6",
-    "url": "/portfolio/static/media/employee-tracker.7f20126a.png"
+    "revision": "29e351503ba457cf770c0c7955c617e9",
+    "url": "/portfolio/static/media/employee-tracker.29e35150.png"
   },
   {
     "revision": "728a078159dea7f2c15c20a5faa73891",
