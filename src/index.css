@@ -462,7 +462,7 @@ code {
   margin: 0px;
   border-left: solid 12px white;
   border-right: solid 12px white;
-  border-image: linear-gradient(to right, #383737, #797878) 1 100%;
+  border-image: linear-gradient(to right, #383737, #a8a7a7) 1 100%;
 }
 
 .contact-card img {
@@ -478,7 +478,10 @@ code {
 }
 
 .back-dark {
-  background-color: var(--black);
+  background-image: url("../src/assets/images/henry-co-M3KfixgdCko-unsplash.jpg");
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: 0 -400px;
 }
 
 .bottom-border {
@@ -496,13 +499,6 @@ code {
 
 .contact-section {
   color: white;
-}
-
-.about {
-  background-image: url("../src/assets/images/street.jpg");
-  background-size: cover;
-  background-attachment: scroll;
-  background-position: 0 -400px;
 }
 
 .big-neon {

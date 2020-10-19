@@ -10,11 +10,11 @@ import Footer from './components/Footer';
 
 function App() {
   // set up navigation state
-const [navSelected, setNavSelected] = useState("home");
+const [navSelected, setNavSelected] = useState("portfolio");
 
 // set document title to selected navigation
 useEffect(() => {
-  const newTitle = navSelected.charAt(0).toUpperCase() + navSelected.slice(1)
+  const newTitle = navSelected.charAt(0).toUpperCase() + navSelected.slice(1) + " - Full Stack Web Development"
   document.title = newTitle;
 }, [navSelected]);
 
@@ -22,8 +22,6 @@ useEffect(() => {
 const renderPage = () => {
     
   switch(navSelected) {
-    case 'home':
-      return <Home />;
     case 'about':
       return <About
       navSelected={navSelected} />;
@@ -37,7 +35,7 @@ const renderPage = () => {
         return <Resume
         navSelected={navSelected} />;
     default:
-      return <Home
+      return <ProjectsPage
       navSelected={navSelected} />;
   }
 }
