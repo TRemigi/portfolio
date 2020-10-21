@@ -6,7 +6,7 @@ function Home () {
 
     return(
         <section>
-        <div id="home" className="container-fluid fill-screen">
+        <div id="home" className="container-fluid jumbo fill-screen">
             <div className="row align-items-end justify-content-end jumbo">
                 {/* insert carousel here (will be used later) */}
                 <div className="col-12 col-lg-8 col-xlg-6">

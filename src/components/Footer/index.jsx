@@ -22,6 +22,15 @@ function Footer () {
     return (
         <footer className="footer back-dark">
             <div className="container-fluid">
+                
+                <div id="contact" className="row justify-content-center align-items-center pt-4 mb-2" style={{color: "white"}}>
+                    <div className="col-6 col-md-3 text-center">
+                        <h6>Send me an email:</h6><a href="mailto:tayremigi@gmail.com">tayremigi@gmail.com</a>
+                    </div>
+                    <div className="col-6 col-md-3 text-center">
+                        <h6>Call me:</h6><a href="tel:+13854248121">(385)424-8121</a>
+                    </div>
+                </div>
                 <div className="row justify-content-center pt-4">
                     {contacts.map((item) => (
                         <div className="col-4 col-md-2 col-lg-1" key={item.name}>

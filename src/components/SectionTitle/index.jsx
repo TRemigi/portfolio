@@ -1,11 +1,6 @@
 import React from 'react';
 
-const SectionTitle = (props) => {
-
-    const { navSelected } = props;
-
-    // get section title based on navSelected
-    const title = navSelected.charAt(0).toUpperCase() + navSelected.slice(1);
+const SectionTitle = ({title}) => {
 
     // array of elements with different animations (flicker)
     const elements = [
@@ -15,8 +10,8 @@ const SectionTitle = (props) => {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 col-sm-8 col-md-6 text-center">
-                    <h2 id={title} className="p-5 mb-6 section-title glowing flicker-1">
+                <div className="col-8 col-sm-6 col-md-4 mb-4 text-center">
+                    <h2 id={title} className="p-3 section-title glowing flicker-1">
                         {title}
                     </h2>
                 </div>
@@ -28,8 +23,8 @@ const SectionTitle = (props) => {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 col-sm-8 col-md-6 text-center">
-                    <h2 id={title} className="p-5 mb-6 section-title glowing flicker-2">
+                <div className="col-8 col-sm-6 col-md-4 mb-4 text-center">
+                    <h2 id={title} className="p-3 section-title glowing flicker-2">
                         {title}
                     </h2>
                 </div>
@@ -41,8 +36,8 @@ const SectionTitle = (props) => {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 col-sm-8 col-md-6 text-center">
-                    <h2 id={title} className="p-5 mb-6 section-title glowing flicker-3">
+                <div className="col-8 col-sm-6 col-md-4 mb-4 text-center">
+                    <h2 id={title} className="p-3 section-title glowing flicker-3">
                         {title}
                     </h2>
                 </div>
@@ -54,8 +49,8 @@ const SectionTitle = (props) => {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 col-sm-8 col-md-6 text-center">
-                    <h2 id={title} className="p-5 mb-6 section-title glowing flicker-4">
+                <div className="col-8 col-sm-6 col-md-4 mb-4 text-center">
+                    <h2 id={title} className="p-3 section-title glowing flicker-4">
                         {title}
                     </h2>
                 </div>
@@ -67,8 +62,8 @@ const SectionTitle = (props) => {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 col-sm-8 col-md-6 text-center">
-                    <h2 id={title} className="p-5 mb-6 section-title glowing">
+                <div className="col-8 col-sm-6 col-md-4 mb-4 text-center">
+                    <h2 id={title} className="p-3 section-title glowing">
                         {title}
                     </h2>
                 </div>
@@ -80,8 +75,8 @@ const SectionTitle = (props) => {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 col-sm-8 col-md-6 text-center">
-                    <h2 id={title} className="p-5 mb-6 section-title glowing">
+                <div className="col-8 col-sm-6 col-md-4 mb-4 text-center">
+                    <h2 id={title} className="p-3 section-title glowing">
                         {title}
                     </h2>
                 </div>
@@ -93,8 +88,8 @@ const SectionTitle = (props) => {
                 </div>
             </div>
             <div className="row justify-content-center">
-                <div className="col-12 col-sm-8 col-md-6 text-center">
-                    <h2 id={title} className="p-5 mb-6 section-title glowing">
+                <div className="col-8 col-sm-6 col-md-4 mb-4 text-center">
+                    <h2 id={title} className="p-3 section-title glowing">
                         {title}
                     </h2>
                 </div>

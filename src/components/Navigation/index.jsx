@@ -6,14 +6,14 @@ function Navigation (props) {
 
     return (
             <Navbar className="bigger-bar fixed-top" bg="dark" variant="dark" expand="lg" collapseOnSelect="true">
-            <Navbar.Brand onClick={() => setNavSelected("portfolio")}><span className="big-neon navbrand">Taylor Remigi</span></Navbar.Brand>
+            <Navbar.Brand href="#projects" onClick={() => setNavSelected("projects")}><span className="big-neon">Taylor Remigi</span></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="container-fluid justify-content-end">
-                    <Nav.Link eventKey="1" className={`${navSelected === "portfolio" && "active"}`} onClick={() => setNavSelected("portfolio")}>Portfolio</Nav.Link>
-                    <Nav.Link eventKey="1" onClick={() => setNavSelected("about")}>About</Nav.Link>
-                    <Nav.Link eventKey="1" onClick={() => setNavSelected("contact")}>Contact</Nav.Link>
-                    <Nav.Link eventKey="1" onClick={() => setNavSelected("resume")}>Resume</Nav.Link>
+                    <Nav.Link href="#projects" eventKey="1" className={`${navSelected === "projects" && "active"}`} onClick={() => setNavSelected("projects")}>Projects</Nav.Link>
+                    <Nav.Link href="#about" eventKey="1" onClick={() => setNavSelected("about")}>About</Nav.Link>
+                    <Nav.Link href="#resume" eventKey="1" onClick={() => setNavSelected("resume")}>Resume</Nav.Link>
+                    <Nav.Link href="#contact" eventKey="1" onClick={() => setNavSelected("contact")}>Contact</Nav.Link>
                 </Nav>
             </Navbar.Collapse>
             </Navbar>

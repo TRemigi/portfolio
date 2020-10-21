@@ -456,8 +456,16 @@ code {
   min-height: 20vh;
 }
 
+Section {
+  padding-bottom: 10vh;
+}
+
+.about-img {
+  border-radius: 15px;
+}
+
 .sign {
-  height: 30px;
+  height: 8vh;
   padding: 0px;
   margin: 0px;
   border-left: solid 12px white;
@@ -470,7 +478,7 @@ code {
 }
 
 .fill-screen {
-  min-height: 91vh;
+  min-height: 94vh;
 }
 
 .btn-darker {
@@ -493,7 +501,7 @@ code {
 }
 
 .bigger-bar {
-  min-height: 10vh;
+  min-height: 6vh;
   border-bottom: solid var(--crimson);
 }
 
@@ -504,7 +512,7 @@ code {
 .big-neon {
   font-family: "Neon W05 Display";
   font-weight: normal;
-  font-size: 4vh;
+  font-size: 2.5vh;
   border: solid 4px;
   border-radius: 25px;
   padding: 5px 20px 5px 20px;
@@ -588,7 +596,7 @@ h1 a {
 header {
   background-color: var(--black);
   color: var(--crimson);
-  height: 10vh;
+  height: 6vh;
 }
 
 .jumbo {
@@ -596,7 +604,7 @@ header {
   background-size: cover;
   background-attachment: scroll;
   background-position: 0 -400px;
-  height: 90vh;
+  height: 94vh;
   border-bottom: solid 3px var(--crimson);
 }
 

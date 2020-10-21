@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   // set up navigation state
-const [navSelected, setNavSelected] = useState("portfolio");
+const [navSelected, setNavSelected] = useState("projects");
 
 // set document title to selected navigation
 useEffect(() => {
@@ -25,7 +25,7 @@ const renderPage = () => {
     case 'about':
       return <About
       navSelected={navSelected} />;
-    case 'portfolio':
+    case 'projects':
       return <ProjectsPage
       navSelected={navSelected} />;
       case 'contact':
@@ -47,7 +47,15 @@ const renderPage = () => {
       setNavSelected={setNavSelected}
       />
       <main>
-        {renderPage()}
+        {/* {renderPage()} */}
+        <Home
+          navSelected={navSelected} />
+        <ProjectsPage
+          navSelected={navSelected} />
+        <About
+          navSelected={navSelected} />
+        <Resume
+          navSelected={navSelected} />
       </main>
       <Footer />
     </div>

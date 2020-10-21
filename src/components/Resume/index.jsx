@@ -8,9 +8,9 @@ function Resume (props) {
 const { navSelected } = props;
 
     return(
-        <section className="container-fluid fill-screen bottom-border">
+        <section id="resume" className="container-fluid fill-screen bottom-border">
             <SectionTitle
-            navSelected={navSelected} />
+            title="Resume" />
             <div className="row justify-content-center pt-5 pb-2">   
                         <div className="col-12 col-md-8 col-lg-6">
                         <Card className="p-2 mb-3" bg="secondary" text="light">
