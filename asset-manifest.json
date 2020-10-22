@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.3bf8f110.chunk.css",
-    "main.js": "/portfolio/static/js/main.deb5ef39.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.deb5ef39.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.b719e81c.chunk.css",
+    "main.js": "/portfolio/static/js/main.cae50679.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.cae50679.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b3df5f95.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b3df5f95.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.08565de1.chunk.js": "/portfolio/static/js/2.08565de1.chunk.js",
-    "static/js/2.08565de1.chunk.js.map": "/portfolio/static/js/2.08565de1.chunk.js.map",
+    "static/js/2.a5cab8a6.chunk.js": "/portfolio/static/js/2.a5cab8a6.chunk.js",
+    "static/js/2.a5cab8a6.chunk.js.map": "/portfolio/static/js/2.a5cab8a6.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.7d89e8f4b730f3578f46326faba1722b.js": "/portfolio/precache-manifest.7d89e8f4b730f3578f46326faba1722b.js",
+    "precache-manifest.56538b27ea67213420e08a92edea79a8.js": "/portfolio/precache-manifest.56538b27ea67213420e08a92edea79a8.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/portfolio/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.3bf8f110.chunk.css.map": "/portfolio/static/css/main.3bf8f110.chunk.css.map",
-    "static/js/2.08565de1.chunk.js.LICENSE.txt": "/portfolio/static/js/2.08565de1.chunk.js.LICENSE.txt",
+    "static/css/main.b719e81c.chunk.css.map": "/portfolio/static/css/main.b719e81c.chunk.css.map",
+    "static/js/2.a5cab8a6.chunk.js.LICENSE.txt": "/portfolio/static/js/2.a5cab8a6.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/9e8a5c7b-b389-4f4d-a58c-55160fbd0878.4f8261a1.woff2",
+    "static/media/B&W-test.jpg": "/portfolio/static/media/B&W-test.21fc1662.jpg",
     "static/media/RoloDeck.png": "/portfolio/static/media/RoloDeck.91eb60c9.png",
     "static/media/budget-tracker-screenshot.png": "/portfolio/static/media/budget-tracker-screenshot.f6219462.png",
     "static/media/chrome.svg": "/portfolio/static/media/chrome.e14e15b3.svg",
@@ -40,8 +41,8 @@
   "entrypoints": [
     "static/js/runtime-main.b3df5f95.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.08565de1.chunk.js",
-    "static/css/main.3bf8f110.chunk.css",
-    "static/js/main.deb5ef39.chunk.js"
+    "static/js/2.a5cab8a6.chunk.js",
+    "static/css/main.b719e81c.chunk.css",
+    "static/js/main.cae50679.chunk.js"
   ]
 }
