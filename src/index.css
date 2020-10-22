@@ -460,17 +460,37 @@ Section {
   padding-bottom: 10vh;
 }
 
-.about-img {
-  border-radius: 15px;
+.about-img img {
+  border-top-right-radius: 7%;
+  border-bottom-right-radius: 7%;
+}
+.about-img::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background: linear-gradient(to right, rgba(0, 0, 0, 0.979), rgba(0, 0, 0, 0));
 }
 
+/* {
+  border-radius: 15px;
+  background-image: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.63),
+    rgba(0, 0, 0, 0.007)
+  );
+  background-size: cover;
+} */
+
 .sign {
-  height: 8vh;
+  height: 6vh;
   padding: 0px;
   margin: 0px;
-  border-left: solid 12px white;
-  border-right: solid 12px white;
-  border-image: linear-gradient(to right, #383737, #a8a7a7) 1 100%;
+  border-top-width: 12px;
+  border-top-style: solid;
+  border-image: linear-gradient(315deg, #5d4257 0%, #767776 74%) 100% 1;
 }
 
 .contact-card img {
@@ -479,6 +499,11 @@ Section {
 
 .fill-screen {
   min-height: 94vh;
+}
+
+.container-fluid {
+  padding-left: 0 !important;
+  /* padding-right: 0 !important; */
 }
 
 .btn-darker {
@@ -559,7 +584,7 @@ Section {
 }
 
 .neon:hover {
-  color: #fff4e6;
+  color: #d8c5bd;
   text-shadow: 4px 4px 50px var(--crimson), -4px -4px 50px var(--crimson);
   box-shadow: 4px 4px 50px var(--crimson), -4px -4px 50px var(--crimson);
   text-decoration: none;
@@ -639,14 +664,14 @@ header {
 .flicker-3 {
   animation-name: flicker-3;
   animation-duration: 4s;
-  animation-iteration-count: 2;
+  animation-iteration-count: infinite;
   animation-delay: 0s;
 }
 
 .flicker-4 {
   animation-name: flicker-4;
   animation-duration: 4s;
-  animation-iteration-count: 3;
+  animation-iteration-count: infinite;
   animation-delay: 3s;
 }
 

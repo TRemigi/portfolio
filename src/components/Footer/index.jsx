@@ -22,8 +22,10 @@ function Footer () {
     return (
         <footer className="footer back-dark">
             <div className="container-fluid">
-                
                 <div id="contact" className="row justify-content-center align-items-center pt-4 mb-2" style={{color: "white"}}>
+                    <div className="col-12 pb-2">
+                        <h4>Contact</h4>
+                    </div>
                     <div className="col-6 col-md-3 text-center">
                         <h6>Send me an email:</h6><a href="mailto:tayremigi@gmail.com">tayremigi@gmail.com</a>
                     </div>

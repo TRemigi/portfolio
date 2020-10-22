@@ -10,7 +10,7 @@ function Project(props) {
     return (
         // loop through projects passed in props and create cards
         <div key={project.name} className="col-12 col-md-6 col-lg-4 project-card">
-            <Card className="p-2 mb-3" bg="secondary" text="light">
+            <Card className="p-2 mb-3" bg="dark" text="light">
                 <Card.Img src={require(`../../assets/images/${project.image}`)} alt={project.name} />
                 <Card.Body>
                     <Card.Title>{project.name}</Card.Title>

@@ -6,7 +6,7 @@ function Navigation (props) {
 
     return (
             <Navbar className="bigger-bar fixed-top" bg="dark" variant="dark" expand="lg" collapseOnSelect="true">
-            <Navbar.Brand href="#projects" onClick={() => setNavSelected("projects")}><span className="big-neon">Taylor Remigi</span></Navbar.Brand>
+            <Navbar.Brand href="#home" onClick={() => setNavSelected("home")}><span className="big-neon">Taylor Remigi</span></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="container-fluid justify-content-end">

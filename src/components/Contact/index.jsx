@@ -12,6 +12,9 @@ function Contact (props) {
             <SectionTitle
             title="Contact" /> 
             <div className="row justify-content-center align-items-center" style={{color: "white"}}>
+                <div className="col-12">
+                    <h2>Contact</h2>
+                </div>
                 <div className="col-12 col-md-5 text-center">
                     <h3>Send me an email:</h3><a href="mailto:tayremigi@gmail.com">tayremigi@gmail.com</a>
                 </div>

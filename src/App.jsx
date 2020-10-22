@@ -10,7 +10,7 @@ import Footer from './components/Footer';
 
 function App() {
   // set up navigation state
-const [navSelected, setNavSelected] = useState("projects");
+const [navSelected, setNavSelected] = useState("home");
 
 // set document title to selected navigation
 useEffect(() => {
@@ -19,26 +19,26 @@ useEffect(() => {
 }, [navSelected]);
 
 // conditionally render pages
-const renderPage = () => {
+// const renderPage = () => {
     
-  switch(navSelected) {
-    case 'about':
-      return <About
-      navSelected={navSelected} />;
-    case 'projects':
-      return <ProjectsPage
-      navSelected={navSelected} />;
-      case 'contact':
-      return <Contact
-      navSelected={navSelected} />;
-      case 'resume':
-        return <Resume
-        navSelected={navSelected} />;
-    default:
-      return <ProjectsPage
-      navSelected={navSelected} />;
-  }
-}
+//   switch(navSelected) {
+//     case 'about':
+//       return <About
+//       navSelected={navSelected} />;
+//     case 'projects':
+//       return <ProjectsPage
+//       navSelected={navSelected} />;
+//       case 'contact':
+//       return <Contact
+//       navSelected={navSelected} />;
+//       case 'resume':
+//         return <Resume
+//         navSelected={navSelected} />;
+//     default:
+//       return <ProjectsPage
+//       navSelected={navSelected} />;
+//   }
+// }
 
   return (
     <div className="back-dark">

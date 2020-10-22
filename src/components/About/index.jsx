@@ -7,19 +7,19 @@ function About (props) {
     const { navSelected } = props;
 
     return(
-        <section id="about" className="container-fluid fill-screen bottom-border about">
+        <section id="about" className="container-fluid fill-screen about">
             <SectionTitle
             title="About" />
-            <div className="row justify-content-center pt-5">
-            <div className="col-12 col-sm-8 col-lg-5">
-                <img className="about-img" src={require('../../assets/images/tay.jpg')} alt="Taylor's portrait" />
-            </div>
-                <div className="col-12 col-sm-8 col-lg-5">
-                    <Card className="p-2 mb-3" bg="secondary" text="light">
+            <div className="row justify-content-center pt-5 pb-5">
+                <div className="col-8 col-sm-6 col-lg-4 about-img">
+                    <img style={{height: "100%", width: "100%"}} src={require('../../assets/images/B&W-test.jpg')} alt="Taylor's portrait" />
+                </div>
+                <div className="col-9 col-sm-8 col-lg-8 d-flex align-items-center">
+                    <Card className="p-2 mb-3" bg="dark" text="light">
                         <Card.Body>
                             <Card.Title>Taylor Remigi</Card.Title>
                                 <Card.Text>
-                                Full stack web developer harnessing love for creating and problem solving to deliver memorable user experiences. Recent recipient of formal recognition for workplace excellence while simultaneously achieving top-in-class grades to earn a certificate in full stack web development from the University of Utah. Demonstrated a voracious appetite for learning and utilizing new skills including various languages and frameworks such as HTML5, CSS3, JavaScript, React.js, Node.js, MySQL, MongoDB, and many more. Emphasizing strong communication and self-accountable collaboration, led a small team of remote developers through the successful agile development of an enterprise-level progressive web application utilizing the MERN stack in just three weeks. Ready and eager to contribute creativity and problem solving skills to a team that is dedicated to the continued growth and learning of all its members.
+                                is a full stack web developer harnessing love for creating and problem solving to deliver memorable user experiences. Recent recipient of formal recognition for workplace excellence while simultaneously achieving top-in-class grades to earn a certificate in full stack web development from the University of Utah. Demonstrated a voracious appetite for learning and utilizing new skills including various languages and frameworks such as HTML5, CSS3, JavaScript, React.js, Node.js, MySQL, MongoDB, and many more. Emphasizing strong communication and self-accountable collaboration, led a small team of remote developers through the successful agile development of an enterprise-level progressive web application utilizing the MERN stack in just three weeks. Ready and eager to contribute creativity and problem solving skills to a team that is dedicated to the continued growth and learning of all its members.
                                 </Card.Text>
                         </Card.Body>
                     </Card>
