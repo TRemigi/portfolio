@@ -1,27 +1,27 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "472fdac46b7d37dd9ff0527a3749a39c",
+    "revision": "49b1dd39f4eb55175e18bea8b485e726",
     "url": "/portfolio/index.html"
   },
   {
-    "revision": "98183170874527ea0781",
+    "revision": "16d105c37c903a8b6281",
     "url": "/portfolio/static/css/2.d9ad5f5c.chunk.css"
   },
   {
-    "revision": "5e67eef9b49365c43a63",
-    "url": "/portfolio/static/css/main.b719e81c.chunk.css"
+    "revision": "905a07f099e544a6b6cd",
+    "url": "/portfolio/static/css/main.f9f995bb.chunk.css"
   },
   {
-    "revision": "98183170874527ea0781",
-    "url": "/portfolio/static/js/2.a5cab8a6.chunk.js"
+    "revision": "16d105c37c903a8b6281",
+    "url": "/portfolio/static/js/2.b7f30c8f.chunk.js"
   },
   {
     "revision": "5ac48c47bb3912b14c2d8de4f56d5ae8",
-    "url": "/portfolio/static/js/2.a5cab8a6.chunk.js.LICENSE.txt"
+    "url": "/portfolio/static/js/2.b7f30c8f.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "5e67eef9b49365c43a63",
-    "url": "/portfolio/static/js/main.cae50679.chunk.js"
+    "revision": "905a07f099e544a6b6cd",
+    "url": "/portfolio/static/js/main.86c334b7.chunk.js"
   },
   {
     "revision": "309a9e55c61ba5bff665",
@@ -88,6 +88,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/portfolio/static/media/portfolio-page.fd3f02c5.png"
   },
   {
+    "revision": "a584064973b02d5f9df3bf361f5d5967",
+    "url": "/portfolio/static/media/portrait.a5840649.jpg"
+  },
+  {
     "revision": "181491c581ca33ad698a03eb618a180e",
     "url": "/portfolio/static/media/react-portfolio.181491c5.png"
   },
@@ -102,6 +106,14 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "1fc2f778722bdd89a45c4a35fafcd39d",
     "url": "/portfolio/static/media/spotify.1fc2f778.svg"
+  },
+  {
+    "revision": "50286221e08579985c77fb465ad0e263",
+    "url": "/portfolio/static/media/stars.50286221.jpg"
+  },
+  {
+    "revision": "8ba198fc94a9d91143b38e77bc87cb34",
+    "url": "/portfolio/static/media/stars.8ba198fc.png"
   },
   {
     "revision": "345f69e8c1868caf332eed8c2f9e608f",
