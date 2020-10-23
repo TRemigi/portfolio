@@ -1,101 +1,66 @@
-import React from 'react';
+import React from "react";
 
-const SectionTitle = ({title}) => {
+const SectionTitle = ({ title, side }) => {
+  // array of flicker animations
+  const flickers = [`flicker-1`, `flicker-2`, `flicker-3`, "flicker-4"];
+  
+  const flickerHandler = () => {
+      // get random index from array (each has different flicker animation)
+    let randomFlicker = flickers[Math.floor(Math.random() * 4)];
+      
+    return `p-3 section-title glowing ${randomFlicker}`
+  };
 
-    // array of elements with different animations (flicker)
-    const elements = [
-        <div className="container-fluid mt-5 mb-5">
-            <div className="row" style={{height: "8vh"}}></div>
-            <div className="row justify-content-start align-items-center">
-                <div className="col-1 sign">
-                </div>
-                <div className="col-8 col-sm-6 col-md-4 pl-0 pr-0 mb-4 text-center">
-                    <h2 id={title} className="p-3 section-title glowing flicker-1">
-                        {title}
-                    </h2>
-                </div>
+  const signHandler = () => {
+    if (side === `left`) {
+
+      return (
+        <div className="mt-5 mb-5">
+          <div className="row" style={{ height: "8vh" }}></div>
+          <div
+            className='row justify-content-end'
+          >
+            <div className="col-8 col-sm-6 col-md-4 mb-4 pr-0 text-center">
+              <h2
+                className={flickerHandler()}
+              >
+                {title}
+              </h2>
             </div>
-        </div>,
-        <div className="container-fluid mt-5 mb-5">
-            <div className="row" style={{height: "8vh"}}></div>
-            <div className="row justify-content-start align-items-center">
-                <div className="col-1 sign">
-                </div>
-                <div className="col-8 col-sm-6 col-md-4 pl-0 pr-0 mb-4 text-center">
-                    <h2 id={title} className="p-3 section-title glowing flicker-2">
-                        {title}
-                    </h2>
-                </div>
-            </div>
-        </div>,
-        <div className="container-fluid mt-5 mb-5">
-            <div className="row" style={{height: "8vh"}}></div>
-            <div className="row justify-content-start align-items-center">
-                <div className="col-1 sign">
-                </div>
-                <div className="col-8 col-sm-6 col-md-4 pl-0 pr-0 mb-4 text-center">
-                    <h2 id={title} className="p-3 section-title glowing flicker-3">
-                        {title}
-                    </h2>
-                </div>
-            </div>
-        </div>,
-        <div className="container-fluid mt-5 mb-5">
-            <div className="row" style={{height: "8vh"}}></div>
-            <div className="row justify-content-start align-items-center">
-                <div className="col-1 sign">
-                </div>
-                <div className="col-8 col-sm-6 col-md-4 pl-0 pr-0 mb-4 text-center">
-                    <h2 id={title} className="p-3 section-title glowing flicker-4">
-                        {title}
-                    </h2>
-                </div>
-            </div>
-        </div>,
-        <div className="container-fluid mt-5 mb-5">
-            <div className="row" style={{height: "8vh"}}></div>
-            <div className="row justify-content-start align-items-center">
-                <div className="col-1 sign">
-                </div>
-                <div className="col-8 col-sm-6 col-md-4 pl-0 pr-0 mb-4 text-center">
-                    <h2 id={title} className="p-3 section-title glowing">
-                        {title}
-                    </h2>
-                </div>
-            </div>
-        </div>,
-        <div className="container-fluid mt-5 mb-5">
-            <div className="row" style={{height: "8vh"}}></div>
-            <div className="row justify-content-start align-items-center">
-                <div className="col-1 sign">
-                </div>
-                <div className="col-8 col-sm-6 col-md-4 pl-0 pr-0 mb-4 text-center">
-                    <h2 id={title} className="p-3 section-title glowing">
-                        {title}
-                    </h2>
-                </div>
-            </div>
-        </div>,
-        <div className="container-fluid mt-5 mb-5">
-            <div className="row" style={{height: "8vh"}}></div>
-            <div className="row justify-content-start align-items-center">
-                <div className="col-1 sign">
-                </div>
-                <div className="col-8 col-sm-6 col-md-4 pl-0 pr-0 mb-4 text-center">
-                    <h2 id={title} className="p-3 section-title glowing">
-                        {title}
-                    </h2>
-                </div>
-            </div>
+            <div className="col-3 col-sm-5 col-md-7 mt-4 sign"></div>
+          </div>
         </div>
-    ];
-    // get random index from array (each has different flicker animation)
-    const randomStyledTitle = elements[Math.floor(Math.random() * 7)];
-    
-    // return a section title element with a random flicker animation
-    return (
-        randomStyledTitle
-    )
-}
+      );
+
+    } else if (side === `right`) {
+
+      return (
+        <div className="mt-5 mb-5">
+          <div className="row" style={{ height: "8vh" }}></div>
+          <div
+            className='row justify-content-start'
+          >
+                <div className="col-3 col-sm-5 col-md-7 mt-4 sign"></div>
+            <div className="col-8 col-sm-6 col-md-4 mb-4 pl-0 text-center">
+              <h2
+                className={flickerHandler()}
+              >
+                {title}
+              </h2>
+            </div>
+          </div>
+        </div>
+      );
+
+    }
+  };
+
+  // return a section title element with a random flicker animation
+  return(
+      <>
+      {signHandler()}
+      </>
+  );
+};
 
 export default SectionTitle;

@@ -3,14 +3,13 @@ import Card from 'react-bootstrap/Card';
 import Button from 'react-bootstrap/Button';
 import ButtonGroup from 'react-bootstrap/ButtonGroup';
 
-function Project(props) {
+function Project({project}) {
 
-    const { project } = props;
 
     return (
         // loop through projects passed in props and create cards
-        <div key={project.name} className="col-12 col-md-6 col-lg-4 project-card">
-            <Card className="p-2 mb-3" bg="dark" text="light">
+        <div key={project.name} className="col-md-12 col-lg-6 mb-1 project-card">
+            <Card className="m-1" bg="dark" text="light">
                 <Card.Img src={require(`../../assets/images/${project.image}`)} alt={project.name} />
                 <Card.Body>
                     <Card.Title>{project.name}</Card.Title>

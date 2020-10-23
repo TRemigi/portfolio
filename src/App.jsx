@@ -47,15 +47,11 @@ useEffect(() => {
       setNavSelected={setNavSelected}
       />
       <main>
-        {/* {renderPage()} */}
         <Home
           navSelected={navSelected} />
-        <ProjectsPage
-          navSelected={navSelected} />
-        <About
-          navSelected={navSelected} />
-        <Resume
-          navSelected={navSelected} />
+        <ProjectsPage />
+        <About />
+        <Resume />
       </main>
       <Footer />
     </div>

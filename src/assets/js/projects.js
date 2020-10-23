@@ -3,7 +3,7 @@ const projects = [
   {
     name: "RoloDeck",
     image: "RoloDeck.png",
-    tools: "MongoDB | Express.js | React.js | Node.js | GraphQL ",
+    tools: "MERN Stack | GraphQL ",
     githubLink: "https://github.com/TRemigi/Roll-a-Jazz",
     deployLink: "https://rolodeck.herokuapp.com/",
   },
@@ -31,7 +31,7 @@ const projects = [
   {
     name: "Weather Dashboard",
     image: "weather-dashboard.png",
-    tools: "HTML | Bootstrap | jQuery | Open Weather API",
+    tools: "HTML | Bootstrap | jQuery",
     githubLink: "https://github.com/TRemigi/weather-dashboard",
     deployLink: "https://tremigi.github.io/weather-dashboard",
   },

@@ -9,13 +9,15 @@ function About (props) {
     return(
         <section id="about" className="container-fluid fill-screen about">
             <SectionTitle
-            title="About" />
+                title="About"
+                side="right"
+            />
             <div className="row justify-content-center pt-5 pb-5">
-                <div className="col-8 col-sm-6 col-lg-4 about-img">
-                    <img style={{height: "100%", width: "100%"}} src={require('../../assets/images/B&W-test.jpg')} alt="Taylor's portrait" />
+                <div className="col-8 col-sm-6 col-lg-4 pl-5 about-img">
+                    <img style={{height: "100%", width: "100%"}} src={require('../../assets/images/portrait.jpg')} alt="Taylor's portrait" />
                 </div>
-                <div className="col-9 col-sm-8 col-lg-8 d-flex align-items-center">
-                    <Card className="p-2 mb-3" bg="dark" text="light">
+                <div className="col-12 col-sm-8 col-lg-8 d-flex align-items-center">
+                    <Card className="p-1 mb-3" bg="dark" text="light">
                         <Card.Body>
                             <Card.Title>Taylor Remigi</Card.Title>
                                 <Card.Text>
