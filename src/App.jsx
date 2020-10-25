@@ -4,7 +4,6 @@ import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import ProjectsPage from './components/ProjectsPage';
-import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer';
 
@@ -18,28 +17,6 @@ useEffect(() => {
   document.title = newTitle;
 }, [navSelected]);
 
-// conditionally render pages
-// const renderPage = () => {
-    
-//   switch(navSelected) {
-//     case 'about':
-//       return <About
-//       navSelected={navSelected} />;
-//     case 'projects':
-//       return <ProjectsPage
-//       navSelected={navSelected} />;
-//       case 'contact':
-//       return <Contact
-//       navSelected={navSelected} />;
-//       case 'resume':
-//         return <Resume
-//         navSelected={navSelected} />;
-//     default:
-//       return <ProjectsPage
-//       navSelected={navSelected} />;
-//   }
-// }
-
   return (
     <div className="back-dark">
       <Header 
@@ -47,8 +24,7 @@ useEffect(() => {
       setNavSelected={setNavSelected}
       />
       <main>
-        <Home
-          navSelected={navSelected} />
+        <Home />
         <ProjectsPage />
         <About />
         <Resume />

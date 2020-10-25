@@ -6,7 +6,7 @@ import Button from 'react-bootstrap/Button';
 import SectionTitle from '../SectionTitle';
 import Carousel from '../Home/Carousel';
     
-function ProjectsPage ({navSelected}) {
+function ProjectsPage () {
 
     const [viewToggle, setViewToggle] = useState(true);
 

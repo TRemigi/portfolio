@@ -1,11 +1,10 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import SectionTitle from '../SectionTitle';
-import ContactForm from './ContactForm';
 
-function Contact (props) {
 
-    const { navSelected } = props;
+function Contact () {
+
 
     return(
         <section id="contact" className="container-fluid bottom-border">
@@ -21,7 +20,6 @@ function Contact (props) {
                 <div className="col-12 col-md-5 text-center">
                    <h3>Call me:</h3><a href="tel:+13854248121">(385)424-8121</a>
                 </div>
-                {/* <ContactForm /> */}
             </div>
             </section>
     )
