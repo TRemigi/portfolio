@@ -448,40 +448,6 @@ code {
   }
 }
 
-@keyframes grain {
-  0%,
-  100% {
-    transform: translate(0, 0);
-  }
-  10% {
-    transform: translate(-2.5%, -5%);
-  }
-  20% {
-    transform: translate(-7.5%, 2.5%);
-  }
-  30% {
-    transform: translate(3.5%, -12.5%);
-  }
-  40% {
-    transform: translate(-2.5%, 12.5%);
-  }
-  50% {
-    transform: translate(-7.5%, 5%);
-  }
-  60% {
-    transform: translate(7.5%, 0%);
-  }
-  70% {
-    transform: translate(0%, 7.5%);
-  }
-  80% {
-    transform: translate(1.5%, 17.5%);
-  }
-  90% {
-    transform: translate(-5%, 5%);
-  }
-}
-
 @-webkit-keyframes slide-in-bottom {
   0% {
     -webkit-transform: translateY(1000px);
@@ -507,19 +473,66 @@ code {
   }
 }
 
-.my-node-enter {
-  opacity: 0;
+@-webkit-keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
-.my-node-enter-active {
-  opacity: 1;
-  transition: opacity 200ms;
+@keyframes slide-in-left {
+  0% {
+    -webkit-transform: translateX(-50px);
+    transform: translateX(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
-.my-node-exit {
-  opacity: 1;
+
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
 }
-.my-node-exit-active {
-  opacity: 0;
-  transition: opacity 200ms;
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(50px);
+    transform: translateX(50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-left {
+  animation: slide-in-left;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
+}
+
+.slide-right {
+  animation: slide-in-right;
+  animation-duration: 0.5s;
+  animation-iteration-count: 1;
 }
 
 html,
@@ -666,15 +679,16 @@ Section {
 
 .glowing {
   color: #d8c5bd;
-  text-shadow: 4px 4px 60px var(--crimson), -4px -4px 60px var(--crimson);
-  box-shadow: 4px 4px 70px 25px var(--crimson),
-    -4px -4px 60px var(--crimson) inset;
+  text-shadow: 4px 4px 10px var(--crimson), -4px -4px 10px var(--crimson);
+  box-shadow: 4px 4px 5px var(--crimson), -4px -4px 5px var(--crimson),
+    4px 4px 5px var(--crimson) inset, -4px -4px 5px var(--crimson) inset;
 }
 
 .glowing-less {
   color: #d8c5bd;
-  text-shadow: 4px 4px 60px var(--crimson), -4px -4px 60px var(--crimson);
-  box-shadow: 4px 4px 15px var(--crimson), -4px -4px 15px var(--crimson) inset;
+  text-shadow: 3px 3px 6px var(--crimson), -3px -3px 6px var(--crimson);
+  box-shadow: 3px 3px 20px var(--crimson), -3px -3px 20px var(--crimson),
+    3px 3px 20px var(--crimson) inset, -3px -3px 20px var(--crimson) inset;
 }
 
 .subtitle {
@@ -713,20 +727,9 @@ header {
   border-bottom: solid 3px var(--crimson);
 }
 
-/* .jumbo::after {
-  content: "";
-  overflow: hidden;
-  animation: grain 1s steps(10) infinite;
-  background-image: url("./assets/images/stars.jpg");
-  height: 500%;
-  width: 500%;
-  opacity: 0.3;
-  position: fixed;
-} */
-
-.opaque {
+/* .opaque {
   opacity: 1 !important;
-}
+} */
 
 .section-title {
   font-family: "Neon W05 Display";
@@ -765,9 +768,9 @@ header {
 }
 
 .slide-in-bottom {
-  -webkit-animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94)
+  -webkit-animation: slide-in-bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
     both;
-  animation: slide-in-bottom 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation: slide-in-bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 /* media queries */

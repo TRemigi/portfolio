@@ -11,7 +11,17 @@ function Home() {
     "performant",
   ];
 
+  const animations = [
+    'slide-left',
+    'slide-right',
+    'slide-left',
+    'slide-right',
+    'slide-left',
+    'slide-right'
+  ]
+
   const [title, setTitle] = useState("creative");
+  const [animation, setAnimation] = useState('slide-right');
   const [index, setIndex] = useState(0);
   const [inProp, setInProp] = useState(true);
 
@@ -23,6 +33,7 @@ function Home() {
         setIndex(0);
       }
       setTitle(titles[index]);
+      setAnimation(animations[index]);
     }, 800);
     return () => clearInterval(interval);
   }, [title, index]);
@@ -30,11 +41,9 @@ function Home() {
   return (
     <section id="home" className="container-fluid fill-screen">
       <div className="row justify-content-center align-items-center jumbo">
-        <div className="col-12 col-lg-8 col-xlg-6 mt-5">
-          <h2 key='title' style={{ color: "white" }}>
-            <Motion defaultStyle={title} style={spring(title)}>
+        <div className="col-12 col-lg-8 col-xlg-6 mt-5 text-center">
+          <h2 className={animation} style={{ color: "white" }}>
             {title}
-            </Motion>
           </h2>
           <h2 className="text-center pt-0" style={{ color: "#96999C" }}>
             Full Stack Web Development
