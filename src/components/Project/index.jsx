@@ -8,8 +8,8 @@ function Project({project}) {
 
     return (
         // loop through projects passed in props and create cards
-        <div key={project.name} className="col-md-12 col-lg-6 mb-1 project-card">
-            <Card className="m-1" bg="dark" text="light">
+        <div key={project.name} className="col-md-12 col-lg-5 m-4 p-0 card-shadow">
+            <Card bg="dark" text="light" className="p-2 border-0">
                 <Card.Img src={require(`../../assets/images/${project.image}`)} alt={project.name} />
                 <Card.Body>
                     <Card.Title>{project.name}</Card.Title>
@@ -18,8 +18,8 @@ function Project({project}) {
                     </Card.Text>
                 </Card.Body>
                 <ButtonGroup aria-label="Basic example">
-                    <Button href={project.githubLink} target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../assets/images/icons/github.svg')} alt="github logo"></img></span></Button>
-                    <Button href={project.deployLink} target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../assets/images/icons/chrome.svg')} alt="google chrome logo"></img></span></Button>
+                    <Button className="btn-shadow m-3" href={project.githubLink} target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../assets/images/icons/github.svg')} alt="github logo"></img></span></Button>
+                    <Button className="btn-shadow m-3" href={project.deployLink} target="_blank" rel="noreferrer" variant="dark"><span><img className="project-btn" src={require('../../assets/images/icons/chrome.svg')} alt="google chrome logo"></img></span></Button>
                 </ButtonGroup>
             </Card>
         </div>

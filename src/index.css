@@ -448,93 +448,6 @@ code {
   }
 }
 
-@-webkit-keyframes slide-in-bottom {
-  0% {
-    -webkit-transform: translateY(1000px);
-    transform: translateY(1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-@keyframes slide-in-bottom {
-  0% {
-    -webkit-transform: translateY(1000px);
-    transform: translateY(1000px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateY(0);
-    transform: translateY(0);
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(-50px);
-    transform: translateX(-50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes slide-in-left {
-  0% {
-    -webkit-transform: translateX(-50px);
-    transform: translateX(-50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-@-webkit-keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(50px);
-    transform: translateX(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-@keyframes slide-in-right {
-  0% {
-    -webkit-transform: translateX(50px);
-    transform: translateX(50px);
-    opacity: 0;
-  }
-  100% {
-    -webkit-transform: translateX(0);
-    transform: translateX(0);
-    opacity: 1;
-  }
-}
-
-.slide-left {
-  animation: slide-in-left;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-}
-
-.slide-right {
-  animation: slide-in-right;
-  animation-duration: 0.5s;
-  animation-iteration-count: 1;
-}
-
 html,
 body {
   width: 100%;
@@ -550,6 +463,24 @@ body {
   text-align: center;
   color: var(--light);
   min-height: 20vh;
+}
+
+.card-shadow {
+  border-radius: 22px;
+  background: linear-gradient(145deg, #383e44, #2f343a);
+  box-shadow: 12px 12px 24px #25292d, -12px -12px 24px #434b53;
+}
+
+.btn-shadow {
+  border-radius: 22px;
+  background: #343a40;
+  box-shadow: 12px 12px 24px #25292d, -12px -12px 24px #434b53;
+}
+
+.btn-shadow:hover {
+  border-radius: 22px;
+  background: #343a40;
+  box-shadow: inset 12px 12px 24px #25292d, inset -12px -12px 24px #434b53;
 }
 
 Section {
@@ -602,10 +533,7 @@ Section {
 }
 
 .back-dark {
-  background-image: url("../src/assets/images/henry-co-M3KfixgdCko-unsplash.jpg");
-  background-size: cover;
-  background-attachment: scroll;
-  background-position: 0 -400px;
+  background-color: #343a40;
 }
 
 .bottom-border {
@@ -709,6 +637,12 @@ Section {
 /* end utilities */
 
 /* header section */
+.Typewriter {
+  color: white;
+  font-size: 50px;
+  opacity: 1;
+}
+
 h1 a {
   font-size: 5vh;
 }
@@ -726,10 +660,6 @@ header {
   height: 94vh;
   border-bottom: solid 3px var(--crimson);
 }
-
-/* .opaque {
-  opacity: 1 !important;
-} */
 
 .section-title {
   font-family: "Neon W05 Display";
@@ -762,15 +692,9 @@ header {
 
 .flicker-4 {
   animation-name: flicker-4;
-  animation-duration: 4s;
-  animation-iteration-count: 3;
-  animation-delay: 3s;
-}
-
-.slide-in-bottom {
-  -webkit-animation: slide-in-bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94)
-    both;
-  animation: slide-in-bottom 0.3s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+  animation-delay: 8s;
 }
 
 /* media queries */

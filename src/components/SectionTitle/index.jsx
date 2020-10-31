@@ -22,7 +22,7 @@ const SectionTitle = ({ title, side }) => {
           >
             <div className="col-8 col-sm-6 col-md-4 mb-4 pr-0 text-center">
               <h2
-                className={flickerHandler()}
+                className="p-3 section-title glowing flicker-4"
               >
                 {title}
               </h2>
@@ -43,7 +43,7 @@ const SectionTitle = ({ title, side }) => {
                 <div className="col-3 col-sm-5 col-md-7 mt-4 sign"></div>
             <div className="col-8 col-sm-6 col-md-4 mb-4 pl-0 text-center">
               <h2
-                className={flickerHandler()}
+                className="p-3 section-title glowing flicker-4"
               >
                 {title}
               </h2>

@@ -10,7 +10,7 @@ function About () {
                 title="About"
                 side="right"
             />
-            <div className="row justify-content-center pt-5 pb-5">
+            <div className="row justify-content-center pt-5 pb-5 card-shadow">
                 <div className="col-12 col-sm-8 col-lg-4 about-img">
                     <img style={{height: "100%", width: "100%"}} src={require('../../assets/images/portrait.jpg')} alt="Taylor's portrait" />
                 </div>
