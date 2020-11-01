@@ -466,21 +466,23 @@ body {
 }
 
 .card-shadow {
-  border-radius: 22px;
-  background: linear-gradient(145deg, #383e44, #2f343a);
-  box-shadow: 12px 12px 24px #25292d, -12px -12px 24px #434b53;
+  border-radius: 10px;
+  background: #343a40;
+  box-shadow: 40px 40px 64px #292d32, -40px -40px 64px #3f474e;
 }
 
 .btn-shadow {
-  border-radius: 22px;
+  border-radius: 22px !important;
   background: #343a40;
   box-shadow: 12px 12px 24px #25292d, -12px -12px 24px #434b53;
 }
 
 .btn-shadow:hover {
-  border-radius: 22px;
+  border: none;
+  border-radius: 22px !important;
   background: #343a40;
   box-shadow: inset 12px 12px 24px #25292d, inset -12px -12px 24px #434b53;
+  text-decoration: none !important;
 }
 
 Section {
@@ -488,18 +490,10 @@ Section {
 }
 
 .about-img img {
-  border-top-right-radius: 2%;
-  border-bottom-right-radius: 2%;
-}
-
-.about-img::after {
-  content: "";
-  position: absolute;
-  width: 100%;
+  border-radius: 22px;
+  padding: 20px 0 20px 0;
   height: 100%;
-  top: 0;
-  left: 0;
-  background: linear-gradient(to right, rgb(5, 5, 7), rgba(0, 0, 0, 0) 40%);
+  width: 100%;
 }
 
 .sign {
@@ -513,9 +507,9 @@ Section {
   border-image: linear-gradient(
       180deg,
       hsl(180, 2%, 18%) 0%,
-      hsl(0, 1%, 54%) 35%,
-      hsl(0, 1%, 39%) 47%,
-      hsl(204, 5%, 18%) 100%
+      hsl(0, 0%, 52%) 35%,
+      hsl(0, 0%, 83%) 47%,
+      hsl(240, 1%, 29%) 100%
     )
     100% 1;
 }
@@ -607,9 +601,9 @@ Section {
 
 .glowing {
   color: #d8c5bd;
-  text-shadow: 4px 4px 10px var(--crimson), -4px -4px 10px var(--crimson);
-  box-shadow: 4px 4px 5px var(--crimson), -4px -4px 5px var(--crimson),
-    4px 4px 5px var(--crimson) inset, -4px -4px 5px var(--crimson) inset;
+  text-shadow: 4px 4px 15px var(--crimson), -4px -4px 15px var(--crimson);
+  box-shadow: 4px 4px 35px 0 var(--crimson), -4px -4px 35px 0 var(--crimson),
+    4px 4px 35px var(--crimson) inset, -4px -4px 35px var(--crimson) inset;
 }
 
 .glowing-less {

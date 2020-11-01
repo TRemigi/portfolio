@@ -35,8 +35,8 @@ function Footer () {
                 </div>
                 <div className="row justify-content-center pt-4">
                     {contacts.map((item) => (
-                        <div className="col-4 col-md-2 col-lg-1" key={item.name}>
-                            <a href={item.link} target="_blank" rel="noopener noreferrer" className="btn btn-lg btn-dark no-glow-neon"><span><FontAwesomeIcon icon={iconChecker(item)} size="2x" /></span></a>
+                        <div className="col-4 col-md-2 col-lg-1 m-2 btn-shadow" key={item.name}>
+                            <a href={item.link} target="_blank" rel="noopener noreferrer" className="btn btn-dark"><span><FontAwesomeIcon icon={iconChecker(item)} size="2x" /></span></a>
                         </div>
                     ))}
                 </div>

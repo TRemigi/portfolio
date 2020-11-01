@@ -21,7 +21,7 @@ function Home() {
               loop: true,
             }}
           />
-          <Glitch text={"Full Stack Web Development"} />
+          <h1 style={{color: "white"}}>Full Stack Web Development</h1>
         </div>
       </div>
     </section>

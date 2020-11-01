@@ -5,7 +5,7 @@ function Navigation (props) {
     const { navSelected, setNavSelected } = props;
 
     return (
-            <Navbar className="bigger-bar fixed-top" bg="dark" variant="dark" expand="lg" collapseOnSelect="true">
+            <Navbar className="bigger-bar fixed-top card-shadow" bg="dark" variant="dark" expand="lg" collapseOnSelect="true">
             <Navbar.Brand href="#home" onClick={() => setNavSelected("home")}><span className="big-neon glowing-less">Taylor Remigi</span></Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
