@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.9859803f.chunk.css",
-    "main.js": "/portfolio/static/js/main.34d7f8ed.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.34d7f8ed.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.a9458775.chunk.css",
+    "main.js": "/portfolio/static/js/main.a9fc50cd.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.a9fc50cd.chunk.js.map",
     "runtime-main.js": "/portfolio/static/js/runtime-main.b3df5f95.js",
     "runtime-main.js.map": "/portfolio/static/js/runtime-main.b3df5f95.js.map",
     "static/css/2.d9ad5f5c.chunk.css": "/portfolio/static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2bd092e2.chunk.js": "/portfolio/static/js/2.2bd092e2.chunk.js",
-    "static/js/2.2bd092e2.chunk.js.map": "/portfolio/static/js/2.2bd092e2.chunk.js.map",
+    "static/js/2.ba18e56c.chunk.js": "/portfolio/static/js/2.ba18e56c.chunk.js",
+    "static/js/2.ba18e56c.chunk.js.map": "/portfolio/static/js/2.ba18e56c.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "precache-manifest.bd37f52d46863e44b7ea9674ae2fa53f.js": "/portfolio/precache-manifest.bd37f52d46863e44b7ea9674ae2fa53f.js",
+    "precache-manifest.35ce3be400068218c6d7d6cf6b354023.js": "/portfolio/precache-manifest.35ce3be400068218c6d7d6cf6b354023.js",
     "service-worker.js": "/portfolio/service-worker.js",
     "static/css/2.d9ad5f5c.chunk.css.map": "/portfolio/static/css/2.d9ad5f5c.chunk.css.map",
-    "static/css/main.9859803f.chunk.css.map": "/portfolio/static/css/main.9859803f.chunk.css.map",
-    "static/js/2.2bd092e2.chunk.js.LICENSE.txt": "/portfolio/static/js/2.2bd092e2.chunk.js.LICENSE.txt",
+    "static/css/main.a9458775.chunk.css.map": "/portfolio/static/css/main.a9458775.chunk.css.map",
+    "static/js/2.ba18e56c.chunk.js.LICENSE.txt": "/portfolio/static/js/2.ba18e56c.chunk.js.LICENSE.txt",
     "static/media/index.css": "/portfolio/static/media/9e8a5c7b-b389-4f4d-a58c-55160fbd0878.4f8261a1.woff2",
     "static/media/B&W-test.jpg": "/portfolio/static/media/B&W-test.21fc1662.jpg",
     "static/media/RoloDeck.png": "/portfolio/static/media/RoloDeck.91eb60c9.png",
@@ -44,8 +44,8 @@
   "entrypoints": [
     "static/js/runtime-main.b3df5f95.js",
     "static/css/2.d9ad5f5c.chunk.css",
-    "static/js/2.2bd092e2.chunk.js",
-    "static/css/main.9859803f.chunk.css",
-    "static/js/main.34d7f8ed.chunk.js"
+    "static/js/2.ba18e56c.chunk.js",
+    "static/css/main.a9458775.chunk.css",
+    "static/js/main.a9fc50cd.chunk.js"
   ]
 }
