@@ -485,6 +485,21 @@ body {
   text-decoration: none !important;
 }
 
+.btn-shadow-sm {
+  color: #a2a8ad !important;
+  border: none !important;
+  border-radius: 50px !important;
+  background: linear-gradient(145deg, #1b1e21, #17191c);
+  box-shadow: 7px 7px 15px #111315, -7px -7px 15px #212529;
+}
+
+.btn-shadow-sm:hover {
+  color: #ffffff !important;
+  border-radius: 50px;
+  background: #191c1f;
+  box-shadow: inset 7px 7px 15px #111315, inset -7px -7px 15px #212529;
+}
+
 Section {
   padding-bottom: 10vh;
 }
@@ -497,6 +512,8 @@ Section {
 }
 
 .sign {
+  position: relative;
+  z-index: 1;
   height: 3.5vh;
   padding: 0px;
   margin: 0px;
@@ -507,11 +524,12 @@ Section {
   border-image: linear-gradient(
       180deg,
       hsl(180, 2%, 18%) 0%,
-      hsl(0, 0%, 52%) 35%,
-      hsl(0, 0%, 83%) 47%,
+      hsl(0, 0%, 83%) 35%,
+      hsl(0, 0%, 52%) 47%,
       hsl(240, 1%, 29%) 100%
     )
     100% 1;
+  box-shadow: 0 5px 25px 20px #2c2e30;
 }
 
 .contact-card img {
@@ -527,7 +545,11 @@ Section {
 }
 
 .back-dark {
-  background-color: #343a40;
+  background-color: rgba(52, 58, 64);
+}
+
+.back-dark::after {
+  background-image: url("./assets/images/criss-cross.png");
 }
 
 .bottom-border {
@@ -541,6 +563,10 @@ Section {
 .bigger-bar {
   min-height: 6vh;
   border-bottom: solid var(--crimson);
+}
+
+.dark-bar {
+  background-color: #191c1f;
 }
 
 .contact-section {
@@ -599,8 +625,14 @@ Section {
   text-decoration: none;
 }
 
+main {
+  box-shadow: 0 -50px 20px #2b2f34 inset;
+}
+
 .glowing {
-  color: #d8c5bd;
+  position: relative;
+  z-index: 2;
+  color: #d3b7ac;
   text-shadow: 4px 4px 15px var(--crimson), -4px -4px 15px var(--crimson);
   box-shadow: 4px 4px 35px 0 var(--crimson), -4px -4px 35px 0 var(--crimson),
     4px 4px 35px var(--crimson) inset, -4px -4px 35px var(--crimson) inset;
@@ -649,10 +681,17 @@ header {
 
 .jumbo {
   background-image: url("./assets/images/street.jpg");
-  background-attachment: fixed;
-  opacity: 1;
+  background-size: cover;
+  background-attachment: scroll;
+  background-position: 17% 75%;
   height: 94vh;
   border-bottom: solid 3px var(--crimson);
+  box-shadow: 0 50px 20px #2b2f34;
+}
+
+.typewriter-container {
+  color: white;
+  margin-top: 20vh;
 }
 
 .section-title {
@@ -686,7 +725,7 @@ header {
 
 .flicker-4 {
   animation-name: flicker-4;
-  animation-duration: 10s;
+  animation-duration: 6s;
   animation-iteration-count: infinite;
   animation-delay: 8s;
 }

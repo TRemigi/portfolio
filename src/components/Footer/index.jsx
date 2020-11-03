@@ -20,7 +20,7 @@ function Footer () {
     }
 
     return (
-        <footer className="footer back-dark">
+        <footer className="footer dark-bar">
             <div className="container-fluid">
                 <div id="contact" className="row justify-content-center align-items-center pt-4 mb-2" style={{color: "white"}}>
                     <div className="col-12 pb-2">
@@ -35,8 +35,8 @@ function Footer () {
                 </div>
                 <div className="row justify-content-center pt-4">
                     {contacts.map((item) => (
-                        <div className="col-4 col-md-2 col-lg-1 m-2 btn-shadow" key={item.name}>
-                            <a href={item.link} target="_blank" rel="noopener noreferrer" className="btn btn-dark"><span><FontAwesomeIcon icon={iconChecker(item)} size="2x" /></span></a>
+                        <div className="col-4 col-md-2 col-lg-1 m-2" key={item.name}>
+                            <a href={item.link} target="_blank" rel="noopener noreferrer" className="btn btn-dark p-3 text-center btn-shadow-sm"><span><FontAwesomeIcon icon={iconChecker(item)} size="2x" /></span></a>
                         </div>
                     ))}
                 </div>

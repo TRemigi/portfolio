@@ -5,6 +5,37 @@ import SectionTitle from '../SectionTitle';
     
 function Resume () {
 
+    const proficiencies = [
+        'HTML',
+        'CSS',
+        'GIT',
+        'Bootstrap',
+        'Node.Js',
+        'Express.js',
+        'JavaScript',
+        'jQuery',
+        'React.js',
+        'State',
+        'Redux',
+        'MySQL',
+        'Object Relational Mapping',
+        'NoSQL',
+        'MongoDB',
+        'GraphQL',
+        'Mongoose',
+        'Media Queries',
+        'Model-View-Controller',
+        'Progressive Web Applications',
+        'APIs',
+        'JSON',
+        'REST',
+        'AJAX',
+        'GitHub',
+        'Object-Oriented Programming',
+        'Computer Science Fundamentals',
+        'Writing Tests',
+    ];
+
     return(
         <section id="resume" className="container-fluid fill-screen bottom-border">
             <SectionTitle
@@ -15,10 +46,12 @@ function Resume () {
                 <div className="col-12 col-md-8 col-lg-6">
                     <Card className="p-2 mb-0 border-0 card-shadow" bg="dark" text="light">
                         <Card.Body>
-                            <Card.Title>Proficiencies</Card.Title>
-                                <Card.Text>
-                                HTML | CSS | Bootstrap | Node.Js | Express.js | JavaScript | jQuery | React.js | GIT | GitHub | MySQL | NoSQL | MondoDB | GraphQL | Mongoose | Media Queries | APIs | JSON | REST | AJAX | the command line | computer science fundamentals | writing tests
-                                </Card.Text>
+                            <h3 className="text-center pb-3">Proficiencies</h3>
+                                    <ul style={{listStyleType: "none"}} className="text-center">
+                                        {proficiencies.map(item => (
+                                            <li key={item}>{item}</li>
+                                        ))}
+                                    </ul>
                         </Card.Body>
                     </Card>
                 </div>

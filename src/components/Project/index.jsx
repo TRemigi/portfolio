@@ -8,7 +8,7 @@ function Project({project}) {
 
     return (
         // loop through projects passed in props and create cards
-        <div key={project.name} className="col-12 col-md-8 col-lg-6 m-5 p-0 card-shadow">
+        <div key={project.name} className="col-12 col-md-8 col-lg-5 m-5 p-0 card-shadow">
             <Card bg="dark" text="light" className="p-2 border-0">
                 <Card.Img src={require(`../../assets/images/${project.image}`)} alt={project.name} />
                 <Card.Body>
