@@ -10,12 +10,12 @@ function About () {
                 title="About"
                 side="right"
             />
-            <div className="row justify-content-center p-5 m-3 card-shadow">
-                <div className="col-10 col-sm-6 col-md-4 col-lg-2 about-img">
+            <div className="row justify-content-center p-5 m-3 card-shadow darker-card">
+                <div className="col-10 col-sm-6 col-md-4 col-lg-2 align-items-center about-img neo-dark">
                     <img src={require('../../assets/images/portrait.jpg')} alt="Taylor's portrait" />
                 </div>
                 <div className="col-12 col-md-10 d-flex align-items-center">
-                    <Card className="p-1 border-0" bg="dark" text="light">
+                    <Card className="p-1 border-0 darker-card neo-dark" text="light">
                         <Card.Body>
                             <Card.Title>Taylor Remigi</Card.Title>
                                 <Card.Text>

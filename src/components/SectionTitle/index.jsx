@@ -1,15 +1,6 @@
 import React from "react";
 
 const SectionTitle = ({ title, side }) => {
-  // array of flicker animations
-  const flickers = [`flicker-1`, `flicker-2`, `flicker-3`, "flicker-4"];
-  
-  const flickerHandler = () => {
-      // get random index from array (each has different flicker animation)
-    let randomFlicker = flickers[Math.floor(Math.random() * 4)];
-      
-    return `p-3 section-title glowing ${randomFlicker}`
-  };
 
   const signHandler = () => {
     if (side === `left`) {

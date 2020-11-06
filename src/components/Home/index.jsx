@@ -1,5 +1,4 @@
 import React from "react";
-import Glitch from "../glitch";
 import Typewriter from "typewriter-effect";
 
 function Home() {

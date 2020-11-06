@@ -465,6 +465,18 @@ body {
   min-height: 20vh;
 }
 
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='red' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+.darker-card {
+  background: #191c1f !important;
+}
+
 .card-shadow {
   border-radius: 10px;
   background: #343a40;
@@ -472,17 +484,19 @@ body {
 }
 
 .btn-shadow {
+  color: #a2a8ad !important;
   border-radius: 22px !important;
-  background: #343a40;
-  box-shadow: 12px 12px 24px #25292d, -12px -12px 24px #434b53;
+  border: none !important;
+  background: linear-gradient(145deg, #1b1e21, #17191c);
+  box-shadow: 14px 14px 28px #0b0c0d, -14px -14px 28px #282c31;
 }
 
 .btn-shadow:hover {
-  border: none;
+  color: #ffffff !important;
+  border: none !important;
   border-radius: 22px !important;
-  background: #343a40;
-  box-shadow: inset 12px 12px 24px #25292d, inset -12px -12px 24px #434b53;
-  text-decoration: none !important;
+  background: #191c1f;
+  box-shadow: inset 14px 14px 28px #0b0c0d, inset -14px -14px 28px #282c31;
 }
 
 .btn-shadow-sm {
@@ -500,6 +514,12 @@ body {
   box-shadow: inset 7px 7px 15px #111315, inset -7px -7px 15px #212529;
 }
 
+.neo-dark {
+  border-radius: 16px;
+  background: linear-gradient(145deg, #1b1e21, #17191c);
+  box-shadow: 20px 20px 51px #0a0b0c, -20px -20px 51px #282d32;
+}
+
 Section {
   padding-bottom: 10vh;
 }
@@ -507,7 +527,7 @@ Section {
 .about-img img {
   border-radius: 22px;
   padding: 20px 0 20px 0;
-  height: 100%;
+  height: auto;
   width: 100%;
 }
 
@@ -548,10 +568,6 @@ Section {
   background-color: rgba(52, 58, 64);
 }
 
-.back-dark::after {
-  background-image: url("./assets/images/criss-cross.png");
-}
-
 .bottom-border {
   border-bottom: solid 3px var(--crimson);
 }
@@ -576,8 +592,8 @@ Section {
 .big-neon {
   font-family: "Neon W05 Display";
   font-weight: normal;
-  font-size: 2.5vh;
-  border: solid 4px;
+  font-size: 25px;
+  border: solid 2px;
   border-radius: 25px;
   padding: 5px 20px 5px 20px;
   color: #979da0;
@@ -731,13 +747,21 @@ header {
 }
 
 /* media queries */
-@media screen and (max-width: 900px) {
-  .big-neon {
-    font-size: 25px;
-    border: solid 2px;
+@media screen and (max-width: 965px) {
+  .jumbo {
+    background-position: 17% 85%;
   }
+}
 
-  .subtitle {
-    font-size: 20px;
+@media screen and (max-width: 710px) {
+  .jumbo {
+    background-position: 17% 90%;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .jumbo {
+    background-size: 150%;
+    background-position: 45% 90%;
   }
 }

@@ -1,14 +1,13 @@
 import React, { useState } from 'react';
 import projects from '../../assets/js/projects';
 import Project from '../Project';
-import CardColumns from 'react-bootstrap/CardGroup';
 import Button from 'react-bootstrap/Button';
 import SectionTitle from '../SectionTitle';
 import Carousel from '../Home/Carousel';
     
 function ProjectsPage () {
 
-    const [viewToggle, setViewToggle] = useState(true);
+    const [viewToggle, setViewToggle] = useState(false);
 
     return(
         <section id="projects" className="container-fluid fill-screen">

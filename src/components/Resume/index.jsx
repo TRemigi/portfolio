@@ -44,7 +44,7 @@ function Resume () {
             />
             <div className="row justify-content-center pt-5 pb-0">   
                 <div className="col-12 col-md-8 col-lg-6">
-                    <Card className="p-2 mb-0 border-0 card-shadow" bg="dark" text="light">
+                    <Card className="p-2 mb-0 border-0 card-shadow darker-card" text="light">
                         <Card.Body>
                             <h3 className="text-center pb-3">Proficiencies</h3>
                                     <ul style={{listStyleType: "none"}} className="text-center">
