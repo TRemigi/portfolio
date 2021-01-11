@@ -487,8 +487,9 @@ body {
   color: #a2a8ad !important;
   border-radius: 22px !important;
   border: none !important;
-  background: linear-gradient(145deg, #1b1e21, #17191c);
-  box-shadow: 14px 14px 28px #0b0c0d, -14px -14px 28px #282c31;
+  border-radius: 22px !important;
+  background: #191c1f !important;
+  box-shadow: 10px 10px 30px #101214, -10px -10px 30px #22262a;
 }
 
 .btn-shadow:hover {
@@ -525,7 +526,7 @@ Section {
 }
 
 .about-img img {
-  border-radius: 22px;
+  border-radius: 50%;
   padding: 20px 0 20px 0;
   height: auto;
   width: 100%;

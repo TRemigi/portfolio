@@ -15,6 +15,7 @@ function Resume () {
         'JavaScript',
         'jQuery',
         'React.js',
+        'React Native',
         'State',
         'Redux',
         'MySQL',
@@ -52,13 +53,9 @@ function Resume () {
                                             <li key={item}>{item}</li>
                                         ))}
                                     </ul>
+                    <Button className=" mt-5 btn-shadow" style={{width: "100%"}} href="https://docs.google.com/document/d/1KR3lAhCoV_Q0ufdYCP92kJT-a-qsUJSTYKTN_MITpqE/edit?usp=sharing" target="_blank" rel="noreferrer" variant="dark">Download Resume</Button>
                         </Card.Body>
                     </Card>
-                </div>
-            </div>
-            <div className="row justify-content-center pt-0 pb-3">
-                <div className="col-12 col-md-8 col-lg-6">
-                    <Button className=" mt-5 btn-shadow" style={{width: "100%"}} href="https://docs.google.com/document/d/1KR3lAhCoV_Q0ufdYCP92kJT-a-qsUJSTYKTN_MITpqE/edit?usp=sharing" target="_blank" rel="noreferrer" variant="dark">Download Resume</Button>
                 </div>
             </div>
         </section>
